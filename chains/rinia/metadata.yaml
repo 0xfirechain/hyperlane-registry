@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=../schema.json
+blockExplorers:
+  - apiUrl: https://rinia.firescan.io/api
+    family: blockscout
+    name: Rinia Explorer
+    url: https://rinia.firescan.io
+blocks:
+  confirmations: 1
+  estimateBlockTime: 5
+  reorgPeriod: 0
+chainId: 917
+displayName: Rinia
+domainId: 917
+isTestnet: true
+name: rinia
+nativeToken:
+  decimals: 18
+  name: FireChain
+  symbol: FIRE
+protocol: ethereum
+rpcUrls:
+  - http: https://rpc-rinia.firestation.io
+technicalStack: other

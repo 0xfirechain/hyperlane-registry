@@ -1,0 +1,62 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x6D017385D293906c75cf38f3087776f49D25Af6C"
+    chainName: basesepolia
+    connections:
+      - token: ethereum|bsctestnet|0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7
+      - token: ethereum|optimismsepolia|0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7
+      - token: ethereum|rinia|0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7
+      - token: ethereum|sepolia|0x671c6B86BDD8b4E601645Fe49a0266597ea8857B
+    decimals: 18
+    logoURI: /deployments/warp_routes/FIRE/logo.svg
+    name: FireChain
+    standard: EvmHypSynthetic
+    symbol: FIRE
+  - addressOrDenom: "0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7"
+    chainName: bsctestnet
+    connections:
+      - token: ethereum|basesepolia|0x6D017385D293906c75cf38f3087776f49D25Af6C
+      - token: ethereum|optimismsepolia|0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7
+      - token: ethereum|rinia|0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7
+      - token: ethereum|sepolia|0x671c6B86BDD8b4E601645Fe49a0266597ea8857B
+    decimals: 18
+    logoURI: /deployments/warp_routes/FIRE/logo.svg
+    name: FireChain
+    standard: EvmHypSynthetic
+    symbol: FIRE
+  - addressOrDenom: "0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7"
+    chainName: optimismsepolia
+    connections:
+      - token: ethereum|basesepolia|0x6D017385D293906c75cf38f3087776f49D25Af6C
+      - token: ethereum|bsctestnet|0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7
+      - token: ethereum|rinia|0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7
+      - token: ethereum|sepolia|0x671c6B86BDD8b4E601645Fe49a0266597ea8857B
+    decimals: 18
+    logoURI: /deployments/warp_routes/FIRE/logo.svg
+    name: FireChain
+    standard: EvmHypSynthetic
+    symbol: FIRE
+  - addressOrDenom: "0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7"
+    chainName: rinia
+    connections:
+      - token: ethereum|basesepolia|0x6D017385D293906c75cf38f3087776f49D25Af6C
+      - token: ethereum|bsctestnet|0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7
+      - token: ethereum|optimismsepolia|0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7
+      - token: ethereum|sepolia|0x671c6B86BDD8b4E601645Fe49a0266597ea8857B
+    decimals: 18
+    logoURI: /deployments/warp_routes/FIRE/logo.svg
+    name: FireChain
+    standard: EvmHypNative
+    symbol: FIRE
+  - addressOrDenom: "0x671c6B86BDD8b4E601645Fe49a0266597ea8857B"
+    chainName: sepolia
+    connections:
+      - token: ethereum|basesepolia|0x6D017385D293906c75cf38f3087776f49D25Af6C
+      - token: ethereum|bsctestnet|0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7
+      - token: ethereum|optimismsepolia|0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7
+      - token: ethereum|rinia|0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7
+    decimals: 18
+    logoURI: /deployments/warp_routes/FIRE/logo.svg
+    name: FireChain
+    standard: EvmHypSynthetic
+    symbol: FIRE

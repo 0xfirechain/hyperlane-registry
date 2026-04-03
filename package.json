@@ -1,7 +1,10 @@
 {
-  "name": "@hyperlane-xyz/registry",
-  "description": "A collection of configs, artifacts, and schemas for Hyperlane",
-  "version": "24.0.0",
+  "name": "@avenbreaks/hyperlane-registry",
+  "description": "A collection of configs, artifacts, and schemas for FireChain Hyperlane bridge",
+  "version": "18.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "jszip": "^3.10.1",
     "yaml": "2.4.5",
